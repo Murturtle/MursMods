@@ -18,4 +18,4 @@
     
     addEventListener("focus",fcs);
     addEventListener("blur",blr);
-});
+})();
