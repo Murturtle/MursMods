@@ -17,6 +17,10 @@
   function slideInYGui(yElement,yStart,yEnd,duration){
     yElement.$guiTop = yStart;
     this.startTime = Date.now();
+
+    this.calc = yEnd - ((startTime+duration - Date.now()) / duration) * yEnd;
+    yElement.$guiTop = this.calc;
+    
     this.slidn = setInterval(function(){
       if(Date.now()-duration-startTime < 0 && yElement != yEnd){
           this.calc = yEnd - ((startTime+duration - Date.now()) / duration) * yEnd;
@@ -121,5 +125,5 @@ function customMainMenu() {
   }
 
   ModAPI.addEventListener("drawhud",drawHudThings);
-  var interv = setInterval(setIntervalThings,25);
+  var interv = setInterval(setIntervalThings,16);
 })();
