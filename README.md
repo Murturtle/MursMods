@@ -1,11 +1,14 @@
-# Blur
+## Blur
 Makes your fps 5 when you unfocus
 
 ### Roadmap
 wait for someone to release a mod for mod configs then let u change fps
 
 
-# SemiAutoLogin
+
+
+
+## SemiAutoLogin
 press l to login when in game
 you will get a popup on launch
 
@@ -13,7 +16,10 @@ you will get a popup on launch
 Stylize popup
 
 
-# FreshEaglerUI
+
+
+
+## FreshEaglerUI
 Make your ui look epic
 
 ### Roadmap
