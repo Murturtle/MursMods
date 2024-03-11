@@ -19,7 +19,6 @@
         `
       )
   
-      if (window.focus) newWindow.focus();
       return newWindow;
   }
   ModAPI.require("player");
